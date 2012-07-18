@@ -1,0 +1,67 @@
+#posts{
+background-color:#D3D3D3;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+float: left;
+width: 800px;
+}
+
+.post{
+background-color:#C9C0BB;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+margin: 5px;
+}
+
+.comment{
+background-color: #addfad;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+float: right;
+width: 600px;
+margin: 5px;
+}
+
+.nested_comment{
+background-color: #addfad;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+float: right;
+width: 500px;
+margin: 5px;
+}
+.commentlink
+{ 
+text-align: right
+} 
+
+#info{
+background-color: #ADD8E6;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+float: left;
+width: 800px;
+margin: 5px;
+}
+
+#linkbar{
+background-color:#A9A9A9;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+text-align: right;
+padding: 5px;
+float: right;
+width: 150px;
+height: 30px;
+}
+
+#footer{
+background-color:#708090;
+border:1px solid #000;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+float: bottom;
+width: 955px;
+height: 50px;
+}
+
+.divider{font-size:20px;}

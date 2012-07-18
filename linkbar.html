@@ -1,0 +1,38 @@
+<?php function print_login_form() {
+  $form_string = "
+<form id=\"theform\" method=\"post\" 
+action=\"login.php\">
+<table border=\"0\">
+<tr>
+<td>Username:</td>
+<td>
+<input type = \"text\" name = \"user\" />
+</td>
+<td>Password:</td>
+<td>
+<input type = \"password\" name = \"password\" />
+</td>
+<td>
+<input type=\"submit\" name = \"submit\" value=\"submit\" />
+</td>
+</tr>
+</table>
+</form>
+";
+  print $form_string;
+}
+?>
+
+<div id="linkbar"><?php
+if ($display_form) {
+	print "<div id='userbar'>";
+	print_login_form();
+	print "</div>";
+} else {
+	$user=$_SESSION['user'];
+	print "<div id='userbar'>Welcome, $user!<br/>\n";	
+	print "<a href=\"logout.php\">Logout</a><br/>\n</div>";
+}
+
+?><a href="./post.php">Post</a> | <a href="./posts.php">Posts</a></div>
+
